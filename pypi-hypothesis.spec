@@ -4,7 +4,7 @@
 #
 Name     : pypi-hypothesis
 Version  : 6.34.2
-Release  : 576
+Release  : 577
 URL      : https://files.pythonhosted.org/packages/f7/68/7b75a58d65342db722638fe562bb58e0acfbe323bebcf2e7f2a57c6d60d4/hypothesis-6.34.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f7/68/7b75a58d65342db722638fe562bb58e0acfbe323bebcf2e7f2a57c6d60d4/hypothesis-6.34.2.tar.gz
 Summary  : A library for property-based testing
@@ -14,13 +14,9 @@ Requires: pypi-hypothesis-bin = %{version}-%{release}
 Requires: pypi-hypothesis-license = %{version}-%{release}
 Requires: pypi-hypothesis-python = %{version}-%{release}
 Requires: pypi-hypothesis-python3 = %{version}-%{release}
-Requires: attrs
-Requires: sortedcontainers
-BuildRequires : attrs
+Requires: pypi(attrs)
+Requires: pypi(sortedcontainers)
 BuildRequires : buildreq-distutils3
-Provides: hypothesis
-Provides: hypothesis-python
-Provides: hypothesis-python3
 BuildRequires : pypi(attrs)
 BuildRequires : pypi(sortedcontainers)
 
@@ -77,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641443672
+export SOURCE_DATE_EPOCH=1641591152
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
