@@ -4,7 +4,7 @@
 #
 Name     : pypi-hypothesis
 Version  : 6.54.4
-Release  : 635
+Release  : 636
 URL      : https://files.pythonhosted.org/packages/9a/10/effc2b7673219726c221e597adcde67bcfc53b50284bbc703da89417fa35/hypothesis-6.54.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9a/10/effc2b7673219726c221e597adcde67bcfc53b50284bbc703da89417fa35/hypothesis-6.54.4.tar.gz
 Summary  : A library for property-based testing
