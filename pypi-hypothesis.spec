@@ -5,7 +5,7 @@
 #
 Name     : pypi-hypothesis
 Version  : 6.86.2
-Release  : 705
+Release  : 706
 URL      : https://files.pythonhosted.org/packages/c3/95/08ccf439a0bbfe5132957f2e070f6183dd508561181746e52f31246594b4/hypothesis-6.86.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/95/08ccf439a0bbfe5132957f2e070f6183dd508561181746e52f31246594b4/hypothesis-6.86.2.tar.gz
 Summary  : A library for property-based testing
@@ -80,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1695063179
+export SOURCE_DATE_EPOCH=1695150243
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
