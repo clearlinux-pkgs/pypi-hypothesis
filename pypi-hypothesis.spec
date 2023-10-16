@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-hypothesis
-Version  : 6.87.4
-Release  : 712
-URL      : https://files.pythonhosted.org/packages/65/00/4f55e61fd4a6242994008083923dbdd076d137fe1c5f093892d2dd02c6e6/hypothesis-6.87.4.tar.gz
-Source0  : https://files.pythonhosted.org/packages/65/00/4f55e61fd4a6242994008083923dbdd076d137fe1c5f093892d2dd02c6e6/hypothesis-6.87.4.tar.gz
+Version  : 6.88.0
+Release  : 713
+URL      : https://files.pythonhosted.org/packages/16/c5/3528b63e3490184643daa6743c10a6c83d67b64fa20e7f0d55fece6b6b38/hypothesis-6.88.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/16/c5/3528b63e3490184643daa6743c10a6c83d67b64fa20e7f0d55fece6b6b38/hypothesis-6.88.0.tar.gz
 Summary  : A library for property-based testing
 Group    : Development/Tools
 License  : MPL-2.0 MPL-2.0-no-copyleft-exception
@@ -19,7 +19,6 @@ Requires: pypi(attrs)
 Requires: pypi(sortedcontainers)
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(attrs)
-BuildRequires : pypi(setuptools)
 BuildRequires : pypi(sortedcontainers)
 # Suppress stripping binaries
 %define __strip /bin/true
@@ -70,10 +69,10 @@ python3 components for the pypi-hypothesis package.
 
 
 %prep
-%setup -q -n hypothesis-6.87.4
-cd %{_builddir}/hypothesis-6.87.4
+%setup -q -n hypothesis-6.88.0
+cd %{_builddir}/hypothesis-6.88.0
 pushd ..
-cp -a hypothesis-6.87.4 buildavx2
+cp -a hypothesis-6.88.0 buildavx2
 popd
 
 %build
@@ -81,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1697215890
+export SOURCE_DATE_EPOCH=1697470756
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
