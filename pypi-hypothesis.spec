@@ -6,10 +6,10 @@
 # autospec commit: f56f1fa
 #
 Name     : pypi-hypothesis
-Version  : 6.100.0
-Release  : 762
-URL      : https://files.pythonhosted.org/packages/fb/d9/65762008149d8d0d4cd11da2d112b025825f65034d39795016f084640c19/hypothesis-6.100.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/fb/d9/65762008149d8d0d4cd11da2d112b025825f65034d39795016f084640c19/hypothesis-6.100.0.tar.gz
+Version  : 6.100.1
+Release  : 763
+URL      : https://files.pythonhosted.org/packages/5a/30/eaf0f26a982bc3b9bdc701b6b289347275beb1ae50aea146cf443c32ce7c/hypothesis-6.100.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5a/30/eaf0f26a982bc3b9bdc701b6b289347275beb1ae50aea146cf443c32ce7c/hypothesis-6.100.1.tar.gz
 Summary  : A library for property-based testing
 Group    : Development/Tools
 License  : MPL-2.0 MPL-2.0-no-copyleft-exception
@@ -71,10 +71,10 @@ python3 components for the pypi-hypothesis package.
 
 
 %prep
-%setup -q -n hypothesis-6.100.0
-cd %{_builddir}/hypothesis-6.100.0
+%setup -q -n hypothesis-6.100.1
+cd %{_builddir}/hypothesis-6.100.1
 pushd ..
-cp -a hypothesis-6.100.0 buildavx2
+cp -a hypothesis-6.100.1 buildavx2
 popd
 
 %build
@@ -82,7 +82,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1712001004
+export SOURCE_DATE_EPOCH=1712673465
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
