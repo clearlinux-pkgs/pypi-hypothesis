@@ -1,5 +1,5 @@
 PKG_NAME := pypi-hypothesis
-URL = https://files.pythonhosted.org/packages/11/a5/4bb02e3153f40bd9a819e35e4c9838cf850ad3e0aa31d30a60cd9b29d143/hypothesis-6.112.2.tar.gz
+URL = https://files.pythonhosted.org/packages/1e/82/44f94eed558a13f1996ec02a63613b32b6a67fe1fde2b8a427d79b06835f/hypothesis-6.112.5.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
